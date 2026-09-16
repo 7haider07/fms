@@ -5,6 +5,12 @@ $id = $_GET['id'];
 $sql = "SELECT * FROM categories WHERE id = $id";
 $result = mysqli_query($conn, $sql);
 $category = mysqli_fetch_assoc($result);
+
+if (!$category) {
+    echo "That category doesn't exist.";
+    echo "<br><a href='categories.php'>Back to Categories</a>";
+    exit();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
