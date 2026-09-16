@@ -6,6 +6,12 @@ $sql = "SELECT * FROM products WHERE id = $id";
 $result = mysqli_query($conn, $sql);
 $product = mysqli_fetch_assoc($result);
 
+if (!$product) {
+    echo "That product doesn't exist.";
+    echo "<br><a href='products.php'>Back to Products</a>";
+    exit();
+}
+
 $catSql = "SELECT * FROM categories ORDER BY name ASC";
 $catResult = mysqli_query($conn, $catSql);
 ?>

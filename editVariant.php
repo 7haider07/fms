@@ -6,6 +6,12 @@ $sql = "SELECT * FROM product_variants WHERE id = $id";
 $result = mysqli_query($conn, $sql);
 $variant = mysqli_fetch_assoc($result);
 
+if (!$variant) {
+    echo "That variant doesn't exist.";
+    echo "<br><a href='variants.php'>Back to Variants</a>";
+    exit();
+}
+
 $prodSql = "SELECT * FROM products ORDER BY name ASC";
 $prodResult = mysqli_query($conn, $prodSql);
 ?>
