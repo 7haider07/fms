@@ -17,6 +17,7 @@ if (!$customer) {
 <head>
     <meta charset="UTF-8">
     <title>Edit Customer - FMS</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 

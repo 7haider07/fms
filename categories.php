@@ -9,6 +9,7 @@ $result = mysqli_query($conn, $sql);
 <head>
     <meta charset="UTF-8">
     <title>Categories - FMS</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 

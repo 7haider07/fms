@@ -20,6 +20,7 @@ $catResult = mysqli_query($conn, $catSql);
 <head>
     <meta charset="UTF-8">
     <title>Edit Product - FMS</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 

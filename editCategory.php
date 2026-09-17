@@ -17,6 +17,7 @@ if (!$category) {
 <head>
     <meta charset="UTF-8">
     <title>Edit Category - FMS</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 

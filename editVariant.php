@@ -20,6 +20,7 @@ $prodResult = mysqli_query($conn, $prodSql);
 <head>
     <meta charset="UTF-8">
     <title>Edit Variant - FMS</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 

@@ -12,6 +12,7 @@ $varResult = mysqli_query($conn, $varSql);
 <head>
     <meta charset="UTF-8">
     <title>Create Order - FMS</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 

@@ -27,6 +27,7 @@ $grandTotal = 0;
 <head>
     <meta charset="UTF-8">
     <title>Order Details - FMS</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
